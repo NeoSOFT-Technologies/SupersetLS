@@ -1,0 +1,20 @@
+TO RUN THE CONTAINER
+
+1. 
+Run SAAS docker-compose. This project is dependent on SAAS for accessing Solr.
+
+2.
+Change the volumen in docker-compose.yml in solr-logstash-superset-container to point towards the directory where your aplication is pushing the logs.
+
+3.
+docker-compose up
+
+4. Connection URL
+solr://solr1-container:8983/solr/applicationLogs
+or
+solr://host.docker.internal:8983/solr/applicationLogs
+
+5. Remove default keyword from database name
+http://localhost:8088/tablemodelview/edit/1
+
+=================================================

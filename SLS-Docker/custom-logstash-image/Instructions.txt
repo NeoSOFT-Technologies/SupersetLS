@@ -1,0 +1,6 @@
+TO BUILD AN IMAGE
+
+docker build -t neosoftcoe/solr-logstash-superset-image .
+
+=================================================
+
