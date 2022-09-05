@@ -10,7 +10,7 @@ Change the volumen in docker-compose.yml in solr-logstash-superset-container to 
 docker-compose up
 
 4. Connection URL
-solr://solr1-container:8983/solr/applicationLogs
+solr://solr:8983/solr/applicationLogs
 or
 solr://host.docker.internal:8983/solr/applicationLogs
 
