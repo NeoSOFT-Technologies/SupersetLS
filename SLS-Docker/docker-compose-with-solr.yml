@@ -2,9 +2,6 @@ x-superset-image: &superset-image apache/superset:${TAG:-latest-dev}
 x-superset-depends-on: &superset-depends-on
   - db
   - redis
-  - solr1-container
-  - solr2-container
-  - solr3-container
 x-superset-volumes: &superset-volumes
   # /app/pythonpath_docker will be appended to the PYTHONPATH in the final container
   - ./superset-docker-utils:/app/docker
