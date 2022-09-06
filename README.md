@@ -1,6 +1,6 @@
 ## (OLD) RUN THE CONTAINERS - SLS-Docker
 
-![plot](./README/images/1.png)
+![plot](./README/images/1.PNG)
 
 1. Run SAAS docker-compose. This project is dependent on SAAS for storing data in Solr. SAAS - https://github.com/NeoSOFT-Technologies/search-as-service/tree/main/docker
 
